@@ -1,0 +1,294 @@
+  
+  /* Body Styling */
+  body {
+    font-family: 'Roboto', Arial, sans-serif;
+    color: #333;
+    background-color: #f9f9f9;
+    line-height: 1.7;
+    
+  }
+  
+  /* Header */
+  header {
+    background-color: #fff;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    padding: 10px 0;
+  }
+  
+  .navbar .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    font-size: 1rem;
+  }
+  
+  .navbar .Right-side {
+    display: flex;
+    gap: 20px;
+  }
+  
+  .navbar a:hover {
+    color: #00aaff;
+  }
+  
+  /* Hero Section */
+  .title {
+    text-align: center;
+    padding: 40px 20px;
+    background: linear-gradient(180deg, #e9f5f8 0%, #f4f8fa 100%);
+  }
+  
+  .title h1 {
+    font-size: 2.8rem;
+    color: #007bff;
+    margin-bottom: 10px;
+    font-weight: 700;
+  }
+  
+  .titlep {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    text-align: center;
+    font-size: 1.3rem;
+  }
+  
+  /* Section Styling */
+  div {
+    margin: 20px 0;
+  }
+  
+  div p {
+    color: #666;
+    font-size: 1rem;
+    margin-top: 10px;
+  }
+  
+  /* Card Containers */
+  .patient-cont,
+  .Doc-cont,
+  .Clinics-cont {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .patient-cont h5,
+  .Doc-cont h5,
+  .Clinics-cont h5 {
+    color: #007bff;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    
+  }
+
+  h3{
+    text-align: center;
+  }
+  
+  /* Info Cards */
+  .info-cont {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    gap: 20px; 
+    text-align: center;
+    background-color: rgb(154, 228, 228);
+  }
+  
+  
+  .info-intro {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .info-intro h5{
+    font-size: 1.8rem;
+    text-shadow: #333;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+
+  .info-intro p{
+    font-size: 1.2rem;
+    margin-top: auto;
+    
+    
+  }
+  
+  
+  .app,
+  .country,
+  .docs,
+  .patients {
+    flex: 1 1 45%; 
+    max-width: 45%; 
+    background: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-cont > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    gap: 20px;
+  }
+  
+  .app h5,
+  .country h5,
+  .docs h5,
+  .patients h5{
+    font-size: 1.2rem;
+    color: #00aaff;
+    margin-bottom: 10px;
+  }
+
+  .app p,
+  .country p,
+  .docs p,
+  .patients p{
+    font-size: 1.5rem;
+    margin: auto;
+    text-align: center;
+    
+  }
+
+
+  .textst h5{
+    font-size: 1.7rem;
+    text-align: center;
+  }
+
+  .textst p{
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+
+  
+  /* Office Section */
+  .offices {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    margin: 30px 0;
+  }
+  
+  .offices figure img {
+    width: 100%;
+    border-radius: 8px;
+  }
+  
+  .offices .ofc-dtl {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  
+  .offices span {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    margin-top: 5px;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    cursor: pointer;
+  }
+  
+  .offices span:hover {
+    background: #0056b3;
+  }
+
+  .last{
+    text-align: center;
+    
+  }
+
+  .lastp{
+    font-size: 1.5rem;
+  }
+
+  
+  /* Footer */
+  .end {
+    text-align: center;
+    padding: 20px 15px;
+    background: #ffffff;
+    color: white;
+  }
+  
+  .end a {
+    color: #00aaff;
+    text-decoration: none;
+  }
+  
+  .end a:hover {
+    text-decoration: underline;
+  }
+  
+  .end small {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9rem;
+    color: black;
+  }
+  
+  /* Button Styling */
+  button {
+    display: inline-block;
+    background: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+    font-size: 1rem;
+    text-transform: uppercase;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background: #0056b3;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .navbar .container {
+      flex-direction: column;
+      text-align: center;
+    }
+    .app,
+    .country,
+    .docs,
+    .patients{
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+  
+
+    .offices {
+      flex-direction: column;
+    }
+  }
+  
